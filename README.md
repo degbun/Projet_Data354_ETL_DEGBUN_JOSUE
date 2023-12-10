@@ -37,6 +37,7 @@ Le projet vise à construire un ETL (Extract, Transform, Load) pour l'extraction
 14. **station2_serie_temporelle.ipynb** : Notebook pour implementer modèle de prédiction de CO_moyen et PM2.5 moyen pour la station2
 
 ## Installation
+Avant de procéder à l'installation, assurez-vous d'être dans le répertoire du projet. Utilisez la commande suivante pour installer les dépendances nécessaires à l'aide du fichier requirements.txt :
 ```bash
 pip install -r requirements.txt
 ```

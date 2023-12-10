@@ -16,25 +16,25 @@ Le projet vise à construire un ETL (Extract, Transform, Load) pour l'extraction
 
 4. `data_processing.py` : fournit un ensemble de fonctions pour l'extraction, la transformation et le chargement (ETL) de données. Ces fonctions seront utilisées par le processus ETL principal (etl.py)
 
-5.   `**etl.py**`:Le script etl.py coordonne l'extraction, la transformation et le chargement (ETL) des données provenant de deux stations spécifiques en appelant les fonctions définies dans data_processing.py, puis stocke les résultats dans deux collections distinctes de MongoDB.
+5.  `etl.py`:Le script etl.py coordonne l'extraction, la transformation et le chargement (ETL) des données provenant de deux stations spécifiques en appelant les fonctions définies dans data_processing.py, puis stocke les résultats dans deux collections distinctes de MongoDB.
    
-6. **model_prediction_co_station1.joblib** : Modèle pré-entraîné pour la prédiction du CO moyen de la station1
+6.  `model_prediction_co_station1.joblib` : Modèle pré-entraîné pour la prédiction du CO moyen de la station1
 
-7. **model_prediction_co_station2.joblib** : Modèle pré-entraîné pour la prédiction du CO moyen de la station2
+7.  `model_prediction_co_station2.joblib` : Modèle pré-entraîné pour la prédiction du CO moyen de la station2
 
-8. **model_prediction_pm2.5_station1.joblib** : Modèle pré-entraîné pour la prédiction du PM2.5 moyen de la station1
+8.  `model_prediction_pm2.5_station1.joblib` : Modèle pré-entraîné pour la prédiction du PM2.5 moyen de la station1
 
-9. **model_prediction_pm2.5_station2.joblib** : Modèle pré-entraîné pour la prédiction du PM2.5 moyen de la station2
+9.  `model_prediction_pm2.5_station2.joblib` : Modèle pré-entraîné pour la prédiction du PM2.5 moyen de la station2
 
-10. **requirements.txt** : pour installer les dépendances.
+10.   `requirements.txt`: pour installer les dépendances.
     
-11. **station1_data.json** : données sous forme json de la station1
+11.  `station1_data.json` : données sous forme json de la station1
 
-12. **station2_data.json** : données sous forme json de la station2
+12. `station2_data.json` : données sous forme json de la station2
 
-13. **station1_serie_temporelle.ipynb** : Notebook pour implementer modèle de prédiction de CO_moyen et PM2.5 moyen pour la station1
+13.  `station1_serie_temporelle.ipynb` : Notebook pour implementer modèle de prédiction de CO_moyen et PM2.5 moyen pour la station1
 
-14. **station2_serie_temporelle.ipynb** : Notebook pour implementer modèle de prédiction de CO_moyen et PM2.5 moyen pour la station2
+14. `station2_serie_temporelle.ipynb`  : Notebook pour implementer modèle de prédiction de CO_moyen et PM2.5 moyen pour la station2
 
 ## Installation
 Avant de procéder à l'installation, assurez-vous d'être dans le répertoire du projet. Utilisez la commande suivante pour installer les dépendances nécessaires à l'aide du fichier requirements.txt :

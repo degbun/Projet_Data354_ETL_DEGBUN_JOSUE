@@ -53,4 +53,23 @@ Démarrez le serveur MongoDB sur votre machine. Vous pouvez utiliser la commande
 ```bash
 mongod
 ```
-Ou encore utiliser MongoDB Compass pour lancer un noeud Mongo. Vous pouvez télécharger MongoDB Compass :[Téléchargement MongoDB Compass](https://www.mongodb.com/try/download/shell)
+Ou encore utiliser MongoDB Compass pour lancer un noeud Mongo. Télécharger MongoDB Compass sur :[Téléchargement MongoDB Compass](https://www.mongodb.com/try/download/shell)
+
+#### Étape 3: Création des Collections
+Ouvrez votre terminal MongoDB et assurez-vous que votre base de données "airflow" existe. Si elle n'existe pas, vous pouvez la créer en utilisant la commande suivante :
+```bash
+use airflow
+```
+Ensuite, créez les collections "station1" et "station2" dans la base de données "airflow".
+```bash
+db.createCollection("station1")
+```
+```bash
+db.createCollection("station2")
+```
+### Étape 4: Exécution du Script ETL
+Maintenant, vous pouvez exécuter le script ETL pour extraire, transformer et charger les données dans les collections "station1" et "station2" de la base de données "airflow". Utilisez la commande suivante :
+```bash
+python etl.py
+```
+

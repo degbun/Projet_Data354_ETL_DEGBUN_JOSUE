@@ -1,8 +1,6 @@
 # Projet_Data354_ETL_DEGBUN_JOSUE ![Status](https://img.shields.io/badge/status-stable-brightgreen) ![Python Version](https://img.shields.io/badge/python-3.11%20%7C%20%3E%3D3.6-blue) ![MongoDB](https://img.shields.io/badge/MongoDB-4.4-green) ![Jupyter](https://img.shields.io/badge/Jupyter-yes-brightgreen)
 
-
- 
-
+![entreprise](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/__pycache__/data354.png)
 
 
 Le projet vise à construire un ETL (Extract, Transform, Load) pour l'extraction et le traitement des données relatives à la qualité de l'air provenant de l'API AirQuino. Ensuite il s'agira de la création d'un modèle de Machine Learning pour effectuer des prévisions sur les deux prochaines heures.

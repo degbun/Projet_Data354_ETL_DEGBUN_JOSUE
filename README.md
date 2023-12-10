@@ -10,5 +10,10 @@ Le projet vise à construire un ETL (Extract, Transform, Load) pour l'extraction
    - image4.jpg: Montre le waterfall de CO_moyen et PM2.5 moyen de la station1
    - image5.jpg: Montre le waterfall de CO_moyen et PM2.5 moyen de la station2
 2. airflow.station1.csv : le fichier csv aggrégées des données de la station1
+
 3. airflow.station2.csv :  le fichier csv aggrégées des données de la station2
 
+4. data_processing.py: fournit un ensemble de fonctions pour l'extraction, la transformation et le chargement (ETL) de données. Ces fonctions seront utilisées par le processus ETL principal (etl.py)
+
+5. etl.py :Le script etl.py coordonne l'extraction, la transformation et le chargement (ETL) des données provenant de deux stations spécifiques en appelant les fonctions définies dans data_processing.py, puis stocke les résultats dans deux collections distinctes de MongoDB.
+6. 

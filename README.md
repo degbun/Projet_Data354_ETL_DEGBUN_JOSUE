@@ -2,7 +2,7 @@
 Le projet vise à construire un ETL (Extract, Transform, Load) pour l'extraction et le traitement des données relatives à la qualité de l'air provenant de l'API AirQuino. Ensuite il s'agira de la création d'un modèle de Machine Learning pour effectuer des prévisions sur les deux prochaines heures.
 
 ## Structure du projet
-1. **images/**:
+1. > Images/:
     Dossier contenant 5 images liées au Dashboard sur superset pour la visualisation
    - image1.jpg: Montre l'evolution du CO_moyen vs PM2.5 moyen dans la staion1 et la station2
    - image2.jpg: Elle fait une comparaison de l'évolution du CO_moyen de la station1 vs station2 puis l'évolution de PM2.5 moyen station1 vs station2
@@ -73,9 +73,4 @@ Maintenant, vous pouvez exécuter le script ETL pour extraire, transformer et ch
 python etl.py
 ```
 
-<details>
-<summary>Cliquez pour afficher/griser le texte</summary>
 
-Le texte que vous souhaitez griser va ici.
-
-</details>

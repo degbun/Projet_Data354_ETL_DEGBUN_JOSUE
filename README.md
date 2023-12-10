@@ -105,6 +105,9 @@ Pour renforcer la fiabilité de notre système à l'avenir, nous allons intégre
 
 En adoptant cette approche, avec une configuration soigneuse du planificateur et une gestion active des erreurs, nous nous assurerons que notre processus ETL s'exécute de manière fiable et cohérente, tout en étant prêts à réagir rapidement en cas de besoin. C'est la clé de notre stratégie réussie pour maintenir un système automatisé performant.
 							
-## Auteur
- `DEGBUN JOSUE`
+## Auteur: 
+DEGBUN JOSUE
+ 
+
+ 
 ![Auteur](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/__pycache__/moi-modified.png)

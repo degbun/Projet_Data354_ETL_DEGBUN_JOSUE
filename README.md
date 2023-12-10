@@ -79,7 +79,7 @@ Maintenant, vous pouvez exécuter le script ETL pour extraire, transformer et ch
 python etl.py
 ```
 ## Architecture du ETL
-La structure du projet est représentée ci-dessous :
+La structure du ETL est représentée ci-dessous :
 ![architecture](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/__pycache__/architecture.jpg)
 
 ## Vue de la base de données

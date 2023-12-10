@@ -67,7 +67,7 @@ db.createCollection("station1")
 ```bash
 db.createCollection("station2")
 ```
-### Étape 4: Exécution du Script ETL
+#### Étape 4: Exécution du Script ETL
 Maintenant, vous pouvez exécuter le script ETL pour extraire, transformer et charger les données dans les collections "station1" et "station2" de la base de données "airflow". Utilisez la commande suivante :
 ```bash
 python etl.py

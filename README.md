@@ -46,5 +46,5 @@ pip install -r requirements.txt
 Avant d'exécuter le script ETL, assurez-vous de configurer correctement votre base de données MongoDB. Suivez ces étapes pour la configuration :
 
 #### Étape 1: Installation de MongoDB
-Assurez-vous d'avoir MongoDB installé sur votre machine. Si ce n'est pas le cas, vous pouvez le télécharger [Téléchargement MongoDB](https://www.mongodb.com/try/download/community)
+Assurez-vous que MongoDB est installé sur votre machine. Vous pouvez le télécharger à partir du site officiel de MongoDB : [Téléchargement MongoDB](https://www.mongodb.com/try/download/community)
 

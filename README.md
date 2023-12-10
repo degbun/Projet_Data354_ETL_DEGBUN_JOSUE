@@ -1,4 +1,5 @@
-# Projet_Data354_ETL_DEGBUN_JOSUE ![Python Version](https://img.shields.io/badge/python-v%20%7C%20v-orange?logo=python)
+# Projet_Data354_ETL_DEGBUN_JOSUE ![Status](https://img.shields.io/badge/status-stable-brightgreen)
+
 
 Le projet vise à construire un ETL (Extract, Transform, Load) pour l'extraction et le traitement des données relatives à la qualité de l'air provenant de l'API AirQuino. Ensuite il s'agira de la création d'un modèle de Machine Learning pour effectuer des prévisions sur les deux prochaines heures.
 

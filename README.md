@@ -78,5 +78,9 @@ Maintenant, vous pouvez exécuter le script ETL pour extraire, transformer et ch
 ```bash
 python etl.py
 ```
+### Architecture du Projet
+La structure du projet est représentée ci-dessous :
+![architecture](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/architecture.jpg)
+
 
 

@@ -80,10 +80,10 @@ python etl.py
 ```
 ## Architecture du ETL
 La structure du projet est représentée ci-dessous :
-![architecture]([https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/architecture.jpg](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/__pycache__/architecture.jpg)
+![architecture](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/__pycache__/architecture.jpg)
 
 ## Vue de la base de données
-Voici un exemplaire de la base de données:![base de données]([https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/bd_nosql.png](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/__pycache__/bd_nosql.png)
+Voici un exemplaire de la base de données:![base de données](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/__pycache__/bd_nosql.png)
 
 ## Réponses aux questions 
 ### 1. Quelle serait votre stratégie de mise en production de votre ETL?

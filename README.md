@@ -53,7 +53,7 @@ Avant d'exécuter le script ETL, assurez-vous de configurer correctement votre b
 Assurez-vous que MongoDB est installé sur votre machine. Vous pouvez le télécharger à partir du site officiel de MongoDB sur: [Téléchargement MongoDB](https://www.mongodb.com/try/download/community)
 
 #### Étape 2: Démarrage de MongoDB
-Démarrez le serveur MongoDB sur le port 27017 de votre machine. Vous pouvez utiliser la commande suivante :
+Démarrez le serveur MongoDB en local sur le port 27017 de votre machine. Vous pouvez utiliser la commande suivante :
 ```bash
 mongod --port 27017
 ```

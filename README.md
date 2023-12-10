@@ -82,6 +82,9 @@ python etl.py
 La structure du projet est représentée ci-dessous :
 ![architecture](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/architecture.jpg)
 
+## Vue de la base de données
+Voici un exemplaire de la base de données:[base de données](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/bd_nosql.png)
+
 ## Réponses aux questions 
 ### 1. Quelle serait votre stratégie de mise en production de votre ETL?
 La stratégie pour mettre en production notre système ETL comprend plusieurs étapes essentielles. Tout d'abord, nous nous assurerons de sa stabilité en effectuant des tests approfondis dans un environnement de pré-production. Ces tests automatisés et d'évaluation des performances garantiront le bon fonctionnement du système avant son déploiement en production.

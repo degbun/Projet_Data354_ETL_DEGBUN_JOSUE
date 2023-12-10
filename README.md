@@ -41,3 +41,9 @@ Avant de procéder à l'installation, assurez-vous d'être dans le répertoire d
 ```bash
 pip install -r requirements.txt
 ```
+## Exécution du script ETL
+### Configuration de la Base de Données MongoDB
+Avant d'exécuter le script ETL, assurez-vous de configurer correctement votre base de données MongoDB. Suivez ces étapes pour la configuration :
+
+#### Étape 1: Installation de MongoDB
+Assurez-vous d'avoir MongoDB installé sur votre machine. Si ce n'est pas le cas, vous pouvez le télécharger ici.

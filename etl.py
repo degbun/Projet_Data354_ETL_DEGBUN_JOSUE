@@ -1,25 +1,25 @@
-from data_processing import extract_and_store_data, transform_data, load_data_into_mongo
+from data_processing import extraire_et_stocker_donnees, transformer_donnees, charger_donnees_dans_mongo
 
 def main():
     # Spécifier les ID de station et les noms de fichier pour chaque station
-    station1_id = 283164601
-    station1_filename = 'station1_data.json'
-    station2_id = 283181971
-    station2_filename = 'station2_data.json'
+    id_station1 = 283164601
+    fichier_station1 = 'station1_data.json'
+    id_station2 = 283181971
+    fichier_station2 = 'station2_data.json'
 
     # Extraire et stocker les données pour la première station
-    extract_and_store_data(station1_id, station1_filename)
+    extraire_et_stocker_donnees(id_station1, fichier_station1)
 
     # Extraire et stocker les données pour la deuxième station
-    extract_and_store_data(station2_id, station2_filename)
+    extraire_et_stocker_donnees(id_station2, fichier_station2)
 
     # Transformer les données pour chaque station
-    df_station1 = transform_data(station1_filename)
-    df_station2 = transform_data(station2_filename)
+    df_station1 = transformer_donnees(fichier_station1)
+    df_station2 = transformer_donnees(fichier_station2)
 
     # Charger les données dans MongoDB pour chaque station
-    load_data_into_mongo(df_station1, 'station1')
-    load_data_into_mongo(df_station2, 'station2')
+    charger_donnees_dans_mongo(df_station1, 'station1')
+    charger_donnees_dans_mongo(df_station2, 'station2')
 
 if __name__ == "__main__":
     main()

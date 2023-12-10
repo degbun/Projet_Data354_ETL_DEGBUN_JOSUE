@@ -73,3 +73,9 @@ Maintenant, vous pouvez exécuter le script ETL pour extraire, transformer et ch
 python etl.py
 ```
 
+<details>
+<summary>Cliquez pour afficher/griser le texte</summary>
+
+Le texte que vous souhaitez griser va ici.
+
+</details>

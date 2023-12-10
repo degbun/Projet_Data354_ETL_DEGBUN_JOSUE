@@ -83,7 +83,7 @@ La structure du projet est représentée ci-dessous :
 ![architecture](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/architecture.jpg)
 
 ## Réponses aux questions 
-### 1.Quelle serait votre stratégie de mise en production de votre ETL?
+### 1. Quelle serait votre stratégie de mise en production de votre ETL?
 La stratégie pour mettre en production notre système ETL comprend plusieurs étapes essentielles. Tout d'abord, nous nous assurerons de sa stabilité en effectuant des tests approfondis dans un environnement de pré-production. Ces tests automatisés et d'évaluation des performances garantiront le bon fonctionnement du système avant son déploiement en production.
 
 Les mises à jour et correctives seront gérées de manière transparente grâce à des outils de gestion de versions tels que Git. Ansible, un outil de déploiement, assurera un déploiement contrôlé. En cas de problème, des procédures de retour à la version précédente seront mises en place.

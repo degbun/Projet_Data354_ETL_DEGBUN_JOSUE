@@ -9,7 +9,7 @@ Le projet vise à construire un ETL (Extract, Transform, Load) pour l'extraction
    - image3.jpg: Montre la valeur max de CO_oyen de le station1 vs station2 puis la valeur max PM2.5 moyen de la station1 vs station2
    - image4.jpg: Montre le waterfall de CO_moyen et PM2.5 moyen de la station1
    - image5.jpg: Montre le waterfall de CO_moyen et PM2.5 moyen de la station2
-2. **airflow.station1.csv** : le fichier csv aggrégées des données de la station1
+2.  `airflow.station1.csv`: le fichier csv aggrégées des données de la station1
 
 
 3. **airflow.station2.csv** :  le fichier csv aggrégées des données de la station2

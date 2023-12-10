@@ -107,3 +107,4 @@ En adoptant cette approche, avec une configuration soigneuse du planificateur et
 							
 ## Auteur
  `DEGBUN JOSUE`
+![Auteur](https://github.com/degbun/Projet_Data354_ETL_DEGBUN_JOSUE/blob/main/__pycache__/moi-modified.png)

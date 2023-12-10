@@ -12,11 +12,11 @@ Le projet vise à construire un ETL (Extract, Transform, Load) pour l'extraction
 2.  `airflow.station1.csv`: le fichier csv aggrégées des données de la station1
 
 
-3. **airflow.station2.csv** :  le fichier csv aggrégées des données de la station2
+3. `airflow.station2.csv`  :  le fichier csv aggrégées des données de la station2
 
-4. **data_processing.py** : fournit un ensemble de fonctions pour l'extraction, la transformation et le chargement (ETL) de données. Ces fonctions seront utilisées par le processus ETL principal (etl.py)
+4. `data_processing.py` : fournit un ensemble de fonctions pour l'extraction, la transformation et le chargement (ETL) de données. Ces fonctions seront utilisées par le processus ETL principal (etl.py)
 
-5. **etl.py** :Le script etl.py coordonne l'extraction, la transformation et le chargement (ETL) des données provenant de deux stations spécifiques en appelant les fonctions définies dans data_processing.py, puis stocke les résultats dans deux collections distinctes de MongoDB.
+5.   `**etl.py**`:Le script etl.py coordonne l'extraction, la transformation et le chargement (ETL) des données provenant de deux stations spécifiques en appelant les fonctions définies dans data_processing.py, puis stocke les résultats dans deux collections distinctes de MongoDB.
    
 6. **model_prediction_co_station1.joblib** : Modèle pré-entraîné pour la prédiction du CO moyen de la station1
 

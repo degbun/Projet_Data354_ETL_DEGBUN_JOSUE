@@ -25,3 +25,13 @@ Le projet vise à construire un ETL (Extract, Transform, Load) pour l'extraction
 8. **model_prediction_pm2.5_station1.joblib** : Modèle pré-entraîné pour la prédiction du PM2.5 moyen de la station1
 
 9. **model_prediction_pm2.5_station2.joblib** : Modèle pré-entraîné pour la prédiction du PM2.5 moyen de la station2
+
+10. **requirements.txt** : pour installer les dépendances.
+
+11. **station1_data.json** : données sous forme json de la station1
+
+12. **station2_data.json** : données sous forme json de la station2
+
+13. **station1_serie_temporelle.ipynb** : Notebook pour implementer modèle de prédiction de CO_moyen et PM2.5 moyen pour la station1
+
+14. **station2_serie_temporelle.ipynb** : Notebook pour implementer modèle de prédiction de CO_moyen et PM2.5 moyen pour la station2

@@ -36,7 +36,7 @@ Le projet vise à construire un ETL (Extract, Transform, Load) pour l'extraction
 
 12. `station2_data.json` : données  de la station2 sous forme json
 
-13.  `station1_serie_temporelle.ipynb` : Notebook pour implémenterun  modèle de prédiction de CO_moyen et PM2.5 moyen pour la station1
+13.  `station1_serie_temporelle.ipynb` : Notebook pour implémenter  modèle de prédiction de CO_moyen et PM2.5 moyen pour la station1
 
 14. `station2_serie_temporelle.ipynb`  : Notebook pour implémenter un modèle de prédiction de CO_moyen et PM2.5 moyen pour la station2
 
